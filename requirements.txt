@@ -1,0 +1,12 @@
+# Encryption & Decryption Tool - Python dependencies
+#
+# Install with:
+#     pip install -r requirements.txt
+#
+# tkinter is part of the Python standard library and does NOT belong here.
+# On some Linux distributions it is packaged separately (e.g. apt install
+# python3-tk), but it is never installed through pip.
+
+# AES encryption (Crypto.Cipher.AES) and padding helpers
+# (Crypto.Util.Padding).
+pycryptodome==3.23.0
